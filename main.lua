@@ -40,7 +40,7 @@ end
 
 
 local executor = identifyexecutor and identifyexecutor() or 'Unknown executor'
-local whitelisted = { 'Synapse X', 'Krnl', 'Fluxus', 'WRD-API', 'ScriptWare' }
+local whitelisted = { 'Synapse X', 'Krnl', 'Fluxus', 'Trigon', 'ScriptWare' }
 local list = table.concat(whitelisted, ', ')
 
 local isWhitelisted = false;
